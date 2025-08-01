@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Dark Bloom Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <div class="bat-emblem" aria-label="Bat Emblem">
+        <!-- Simple SVG bat -->
+        <svg width="50" height="30" viewBox="0 0 64 32" aria-hidden="true">
+          <path fill="gold" d="M32 0c-6 4-12 4-18 0-2 4-6 8-6 8s4 0 6 4c-4 0-8 4-8 4s4 0 8 0c-2 4-6 4-6 4s4 4 6 4c6-4 12-4 18 0 2-4 6-4 6-4s-4-4-6-4c4 0 8-4 8-4s-4 0-8 0c2-4 6-4 6-4s-4-4-6-8z"/>
+        </svg>
+      </div>
+      <div class="title">
+        <h1>The Dark Bloom Café</h1>
+        <p>Gotham’s hideout for coffee & blossoms</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#menu">Menu</a>
+      <a href="#flowers">Flowers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <h2>Where Gotham's Darkness Blooms</h2>
+      <p>Handcrafted coffee, artisan cakes, and floral elegance under one roof.</p>
+      <div class="call-to-actions">
+        <button data-filter="all">All</button>
+        <button data-filter="coffee">Coffee</button>
+        <button data-filter="cake">Cakes</button>
+        <button data-filter="bakery">Bakery</button>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="menu" class="menu-section">
+      <h2 class="section-title">Menu</h2>
+      <div class="cards-wrapper" id="menu-items">
+        <!-- Coffee -->
+        <div class="card" data-type="coffee">
+          <div class="card-header">
+            <h3>The Gotham Brew</h3>
+            <span class="tag">Espresso</span>
+          </div>
+          <p>Strong bold espresso with a smoky edge — fuel for the night.</p>
+          <div class="price">₨ 550</div>
+        </div>
+
+        <div class="card" data-type="coffee">
+          <div class="card-header">
+            <h3>Knight’s Cappuccino</h3>
+            <span class="tag">Classic</span>
+          </div>
+          <p>Creamy cappuccino topped with cocoa bat-art.</p>
+          <div class="price">₨ 620</div>
+        </div>
+
+        <div class="card" data-type="coffee">
+          <div class="card-header">
+            <h3>Selina’s Caramel Mocha</h3>
+            <span class="tag">Sweet</span>
+          </div>
+          <p>Silky chocolate, caramel drizzle, and whipped cream.</p>
+          <div class="price">₨ 700</div>
+        </div>
+
+        <!-- Cakes -->
+        <div class="card" data-type="cake">
+          <div class="card-header">
+            <h3>Wayne Manor Cheesecake</h3>
+            <span class="tag">Classic</span>
+          </div>
+          <p>Velvety New York cheesecake with berry compote.</p>
+          <div class="price">₨ 850</div>
+        </div>
+
+        <div class="card" data-type="cake">
+          <div class="card-header">
+            <h3>Blooming Velvet Cake</h3>
+            <span class="tag">Signature</span>
+          </div>
+          <p>Red velvet layered with edible petals and cream cheese.</p>
+          <div class="price">₨ 920</div>
+        </div>
+
+        <!-- Bakery -->
+        <div class="card" data-type="bakery">
+          <div class="card-header">
+            <h3>Bat-Brownie Bites</h3>
+            <span class="tag">Chocolate</span>
+          </div>
+          <p>Dark chocolate brownies shaped like bats — rich and fudgy.</p>
+          <div class="price">₨ 400</div>
+        </div>
+
+        <div class="card" data-type="bakery">
+          <div class="card-header">
+            <h3>Harley’s Cupcakes</h3>
+            <span class="tag">Playful</span>
+          </div>
+          <p>Colorful cupcakes with whimsical frosting swirls.</p>
+          <div class="price">₨ 350</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="flowers" class="flowers-section">
+      <h2 class="section-title">Flower Shop Corner</h2>
+      <div class="flower-cards">
+        <div class="card flower">
+          <h3>Hero’s Bloom Bouquet</h3>
+          <p>Seasonal mix of roses, lilies, and dark foliage wrapped in themed paper.</p>
+          <div class="price">₨ 1,500</div>
+        </div>
+        <div class="card flower">
+          <h3>Mini Gotham Succulent</h3>
+          <p>Low-maintenance succulents in a matte black pot with a golden accent.</p>
+          <div class="price">₨ 600</div>
+        </div>
+        <div class="card flower">
+          <h3>Poison Ivy Tart</h3>
+          <p>Okay, this is dessert-meets-flower: pistachio-matcha tart with edible petals.</p>
+          <div class="price">₨ 780</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Visit Us</h2>
+      <p>Find your hideout — dark vibes, blooming life, and unforgettable flavors.</p>
+      <div class="contact-cards">
+        <div class="card">
+          <h3>Location</h3>
+          <p>Gotham Alley, Level 2, The Bloom District</p>
+        </div>
+        <div class="card">
+          <h3>Hours</h3>
+          <p>Mon–Sun: 8 AM – 11 PM</p>
+        </div>
+        <div class="card">
+          <h3>Connect</h3>
+          <p>Email: hello@darkbloomcafe.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 The Dark Bloom Café. Crafted for Gotham’s tastemakers.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
